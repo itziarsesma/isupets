@@ -1,7 +1,7 @@
 {
-  "name": "isunews",
+  "name": "isupets",
   "version": "1.0.0",
-  "description": "Aplicación responsive isunews",
+  "description": "Aplicación responsive isupets",
   "main": "gulpfile.js",
   "author": "isu",
   "license": "ISC",

@@ -85,7 +85,7 @@ var copyFilesConfig = {
 };
 
 // definimos la tarea por defecto
-gulp.task("default", [sassConfig.compileSassTaskName, jsConfig.concatJsTaskName, imagesConfig.imagesTaskName, sprites.spritesTaskName, videoConfig.videoTaskName], function() {
+gulp.task("default", [sassConfig.compileSassTaskName, jsConfig.concatJsTaskName, imagesConfig.imagesTaskName, sprites.spritesTaskName, copyFilesConfig.copyFilesTaskName], function() {
     // arrancar el servidor de desarrollo de browser sync
     browserSync.init({
         //server: "./"
