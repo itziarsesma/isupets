@@ -1,0 +1,79 @@
+h2 {
+    color: $color-dark-text;
+}
+
+.main-container {
+     width: 100%;
+	 max-width: 1000px;
+	 margin: 0 auto;
+	 min-height: 100%;
+     padding: 0 20px 20px 20px;
+}
+.article {
+    border: 1px solid $color-primary;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    .article-header {
+        padding-top: 10px;
+        @include if-is-large-screen {
+            padding-top: 0;
+        }
+
+        img {
+            border-radius: 0;
+        }
+        .article-header-columns {
+            @include if-is-medium-screen {
+                display: flex;
+            }
+            .date {
+                padding-top: 10px;
+                font-style: italic;
+                color: $color-dark-text;
+                @include if-is-medium-screen {
+                    display: flex;
+                    flex: 1;
+                    align-items: flex-end;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .article-body {
+        text-align: justify;
+        margin-bottom: 20px;
+        .article-title {
+            font-weight: bold;
+        }
+    }
+    .article-footer {
+        display: flex;
+        .btn-primary {
+            color: $color-dark-text;
+            .badge {
+                background: $color-dark-text;
+            }
+            &:hover {
+                background: $color-light-text;
+                color: $color-white;
+            }
+        }
+        .like-container {
+            display: flex;
+            flex: 1;
+            align-items: flex-end;
+            flex-direction: column;
+            .btn-like {
+                width: 26px;
+                height: 26px;
+            }
+            .like-img {
+                @extend .like;
+            }
+            .no-like-img {
+                @extend .no-like;
+            }
+        }   
+    }
+}

@@ -1,0 +1,58 @@
+$color-happy-blue: #6A88A4;
+$color-now-and-then: #7DD4DE;
+$color-flaxen: #12222F;
+$color-alani: #ECA857;
+$color-creamy-brown: #6C4C41;
+$color-white: white;
+$color-bg: #ddd;
+
+$color-primary: $color-bg;
+$color-secondary: $color-happy-blue;
+$color-highlight: $color-happy-blue;
+$color-dark-text: $color-creamy-brown;
+$color-light-text: $color-alani;
+
+$brand-primary: $color-primary;
+
+$header-font-family: 'kumar-one', cursive;
+$heder-border-radius: 15px;
+
+/*$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;*/
+
+//Bootstrap variables*****************************************************************************************
+$font-family-sans-serif:  'raleway', sans-serif;
+
+$link-color: $color-dark-text;
+$font-size-h1: 34px;
+
+//navbar
+//variable para los saltos resposive del navbar
+//$grid-float-breakpoint por defecto 768px
+$navbar-default-bg: $color-primary;
+$navbar-default-toggle-icon-bar-bg: $color-white;
+$navbar-default-toggle-border-color: transparent;
+$navbar-default-border: none;
+
+// Navbar links
+$navbar-default-link-color:                $color-dark-text;
+$navbar-default-link-hover-color:          $color-white;
+$navbar-default-link-hover-bg:             $color-highlight;
+
+$dropdown-border: none;
+
+$input-border-focus: $color-highlight;
+
+$pagination-hover-bg: $color-highlight;
+
+$navbar-margin-bottom: 0px;
+
+//********************************************************************************//
+// responsive breakpoints
+$large-screen-width: 1024px; // iPad en landscape o superior
+$medium-screen-width: 768px; // iPad portrait
+$small-screen-width: $medium-screen-width - 1;  // smartphones
+
+

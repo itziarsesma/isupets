@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>isupets</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+    <header class="header title-container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="title">
+                        <h1><span class="isu">isu</span>pets</h1>
+                    </div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="navbar-container">
+                        <ul class="nav navbar-nav">
+                            <li class="li-primary"><a href="#">Perros</a></li>
+                            <li class="li-primary"><a href="#">Gatos</a></li>
+                            <li class="li-secondary"><a href="#">Pájaros</a></li>
+                            <li class="li-secondary"><a href="#">Peces</a></li>
+                            <li class="li-primary"><a href="#">Otros</a></li>
+                            <li  class="li-primary" role="separator" class="divider"></li>
+                            <li class="li-primary"><a class = "a-login" href="#">Iniciar sesión</a></li>
+                            <li class="li-primary" role="separator" class="divider"></li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Buscar">
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>  
+    </header>
+    <main class="main-container">
+        <section class="article-list">
+            <article class="article" data-id="1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-pastor-brie-375px.jpg 375w, dist/img/art-pastor-brie-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-pastor-brie-750px.jpg 750w, dist/img/art-pastor-brie-1000px.jpg 1000w, dist/img/art-pastor-brie-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-pastor-brie.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar">
+                                    <a href="https://es.wikipedia.org/wiki/Pastor_de_Brie">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">03/02/2017 17:00</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Pastor de Brie</a></h2>
+                            <p>El Pastor de Brie pertenece a una de las razas de perros franceses más antiguas y es mencionado por primera vez en 1809, así que, como todos los perros europeos, posee una larga historia. Evolucionó en la región de Brie y fue conocido como raza a finales del siglo pasado, cuando el cinólogo P. Ménguin lo diferenció del pastor de Beauce. (El briard tiene el pelo largo y el Beauceron lo tiene corto).
+                            Perfil comportamental de la raza de perro pastor de brie.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-persa-negro-375px.jpg 375w, dist/img/art-persa-negro-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-persa-negro-750px.jpg 750w, dist/img/art-persa-negro-1000px.jpg 1000w, dist/img/art-persa-negro-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-persa-negro.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Gato_persa">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">03/02/2017 17:45</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Gato persa</a></h2>
+                            <p>El Persa es una raza de gato caracterizada por tener una cara ancha y plana y un gran abundante pelaje de variados colores. Son considerados comúnmente como gatos aristocráticos (el 75% de los gatos de pedigree registrados son persas). Los primeros gatos persas fueron introducidos en Italia desde Persia (actual Irán) en la década de 1620 y a sus descendientes se les llamó de muchas maneras. La rama persa actual se desarrolló a finales de 1800 en Inglaterra y proviene del gato de Angora turco.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-pez-leon-375px.jpg 375w, dist/img/art-pez-leon-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-pez-leon-750px.jpg 750w, dist/img/art-pez-leon-1000px.jpg 1000w, dist/img/art-pez-leon-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-pez-leon.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Pterois_antennata">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">03/02/2017 18:19:05</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Pez león</a></h2>
+                            <p>El pez león (Pterois antennata), erróneamente llamado pez escorpión, es un pez de la familia Scorpaenidae. Su hábitat natural son los lagoon y arrecifes del océano Índico tropical y el Pacífico occidental. Se refugia durante el día y caza camarones y cangrejos durante la noche. Crece un máximo de 20 cm.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-colibri-375px.jpg 375w, dist/img/art-colibri-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-colibri-750px.jpg 750w, dist/img/art-colibri-1000px.jpg 1000w, dist/img/art-colibri-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-colibri.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Trochilinae">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Colibrí</a></h2>
+                            <p>Los troquilinos (Trochilinae) son una subfamilia de aves apodiformes de la familia Trochilidae, conocidas comúnmente como colibríes, quindes, tucusitos, picaflores, chupamirtos, chuparrosas, huitsitsili (idioma nahuatl), mainumby (idioma guaraní) o guanumby. Conjuntamente con las ermitas, que pertenecen a la subfamilia Phaethornithinae, conforman la familia Trochilidae que, en la sistemática de Charles Sibley, se clasifica en un orden propio: Trochiliformes, independiente de los vencejos del orden Apodiformes. La subfamilia Trochilinae incluye más de 100 géneros que comprenden un total de 330 a 340 especies.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-lobo-375px.jpg 375w, dist/img/art-lobo-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-lobo-750px.jpg 750w, dist/img/art-lobo-1000px.jpg 1000w, dist/img/art-lobo-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-lobo.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Canis_lupus">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Lobo</a></h2>
+                            <p>El lobo (Canis lupus) es una especie de mamífero placentario del orden de los carnívoros. El perro doméstico (Canis lupus familiaris) se considera miembro de la misma especie según distintos indicios, la secuencia del ADN y otros estudios genéticos.2 Los lobos fueron antaño abundantes y se distribuían por Norteamérica, Eurasia y el Oriente Medio.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-halcon-375px.jpg 375w, dist/img/art-halcon-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-halcon-750px.jpg 750w, dist/img/art-halcon-1000px.jpg 1000w, dist/img/art-halcon-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-halcon.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Falco">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Halcón</a></h2>
+                            <p>Falco es un género de aves falconiformes de la familia Falconidae, varias especies son comúnmente conocidas como halcones, cernícalos o alcotanes. Los halcones tienen alas finas, acentuadas, que les permiten alcanzar velocidades extremadamente altas. Los halcones peregrinos son los animales más rápidos del planeta, alcanzando velocidades en vuelo en picado entre los 230 a 360 km/h.1 2 3 En vuelo horizontal alcanza los 96 km/h.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="7">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-caiman-375px.jpg 375w, dist/img/art-caiman-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-caiman-750px.jpg 750w, dist/img/art-caiman-1000px.jpg 1000w, dist/img/art-caiman-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-caiman.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Caiman">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Caimán</a></h2>
+                            <p>Caiman es un género de crocodilios de la familia de los aligatóridos, conocidos vulgarmente como yacarés o caimanes. Se distribuyen en las regiones subtropicales y tropicales de América, desde Florida hasta el sur de Sudamérica.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-jirafa-375px.jpg 375w, dist/img/art-jirafa-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-jirafa-750px.jpg 750w, dist/img/art-jirafa-1000px.jpg 1000w, dist/img/art-jirafa-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-jirafa.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Giraffa_camelopardalis">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Jirafa</a></h2>
+                            <p>La jirafa (Giraffa camelopardalis) es una especie de mamífero artiodáctilo de la familia Giraffidae propio de África. Es la más alta de todas las especies de animales terrestres existentes. Puede alcanzar una altura de 5,8 metros y un peso que varía entre 750 y 1600 kg.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <picture>
+                            <source srcset="dist/img/art-orca-375px.jpg 375w, dist/img/art-orca-750px.jpg 750w" media="(max-width: 767px)">
+                            <source srcset="dist/img/art-orca-750px.jpg 750w, dist/img/art-orca-1000px.jpg 1000w, dist/img/art-orca-1500px.jpg 1500w" media="(min-width: 768px)">
+                            <img class="article-img" src="dist/img/art-orca.jpg">
+                        </picture>    
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <img class="avatar" src="dist/img/avatar-wikipedia.png">
+                                    <a href="https://es.wikipedia.org/wiki/Orcinus_orca">Wikipedia</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Orca</a></h2>
+                            <p>La orca (Orcinus orca) es una especie de cetáceo odontoceto perteneciente a la familia Delphinidae (delfines oceánicos), que habita en todos los océanos del planeta. Es la especie más grande de delfínido y la única existente actual reconocida dentro del género Orcinus.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <article class="article" data-id="10">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div align="center" class="embed-responsive embed-responsive-16by9">
+                            <video controls class="embed-responsive-item">
+                                <source src="dist/video/KalaTekla.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <header class="article-header">
+                            <div class="article-header-columns">
+                                <div class="article-author">
+                                    <!-- <img class="avatar" src="dist/img/avatar-placeholder.png"> -->
+                                    <img class="avatar">
+                                    <a href="">Itzi Sesma</a>
+                                </div>
+                                <div class="date">
+                                    <p>Publicado <span class="articleDate">01/02/2017 19:25</span></p>
+                                </div>
+                            </div>
+                            
+                        </header>
+                        <div class="article-body">
+                            <h2 class="article-title"><a href="detail.html" class="navbar-link">Un paseo matutino</a></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam harum saepe consectetur, dolor, assumenda nostrum asperiores quidem necessitatibus, voluptatibus ratione cum eum, ex iusto. Nam ipsam asperiores nisi, corporis dolor.</p>
+                        </div>
+                        <footer class="article-footer">
+                            <button class="btn btn-primary" type="button">
+                                <a href="detail.html#comments" class="navbar-link">Comentarios <span class="badge">4</span></a>
+                            </button>
+                            <div class="like-container">
+                                <button class="btn btn-primary btn-like no-like-img"></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div>
+            <nav aria-label="...">
+                <ul class="pager">
+                    <li class="previous"><a class="pager-link" href="#"><span aria-hidden="true">&larr;</span> Anterior</a></li>
+                    <li class="next"><a class="pager-link" href="#">Siguiente <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+	<footer class="footer title-container">
+        <div class="container">
+            <div class="title">
+                <h4><span class="isu">isu</span>pets</h4>
+                <h6 class="author">Itziar Sesma &copy; 2017</h6>          
+            </div>
+            <div class="go-top-container">
+                <a class="btn btn-default" href="#" role="button">Ir arriba</a>
+            </div>
+        </div>
+	</footer>
+    
+    <script src="dist/main.js"></script>
+</body>
+</html>

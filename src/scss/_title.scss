@@ -1,0 +1,12 @@
+.title-container {
+    background-color: $color-primary;
+    .title {
+        color: $color-secondary;
+        padding: 10px;
+        font-family: $header-font-family;
+        text-align: center;
+    }
+    .isu {
+        color: $color-dark-text;
+    }
+}

@@ -1,0 +1,35 @@
+
+.divider {
+    height: 1px;
+    background-color: darken($color-primary, 30%);
+}
+
+.navbar-toggle {
+    padding-top: 30px;
+}
+
+.navbar-container {
+    @include if-is-medium-screen {
+        float: right;
+        margin-top: 22px;
+    }
+    .li-secondary {
+        @include if-is-medium-screen {
+            visibility: hidden;
+            width: 0px;
+        }
+        @include if-is-large-screen {
+            visibility: visible;
+            width: auto;
+        }
+    }
+}
+
+.a-login {
+    color:  $color-happy-blue;
+}
+
+
+
+
+

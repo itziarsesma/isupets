@@ -1,0 +1,51 @@
+textarea {
+	resize: none;
+}
+
+div[class^="ui-"] { 
+	display: none;
+}
+
+.comments-list {
+	// estado ideal
+    &.ideal .ui-ideal { 
+        display: block;
+    }
+    //estado en blanco
+    &.blank .ui-blank { 
+		display: block;
+		text-align: center;
+		@extend .alert;
+		@extend .alert-info;	
+	}
+    //estado error
+    &.error .ui-error { 
+		display: block;
+		text-align: center;
+		@extend .alert;
+		@extend .alert-danger;
+	}
+    //estado cargando
+    &.loading .ui-loading {
+		display: block;
+		border: 6px solid #f3f3f3;
+		border-top: 6px solid $color-dark-text;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		animation: spin 1s linear infinite;
+	 }
+	 .article-comment {
+		 margin: 20px;
+		 text-align: justify;
+		 .author {
+			 color: $color-dark-text;
+		 }
+	 }
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
