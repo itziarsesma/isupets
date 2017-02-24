@@ -1,6 +1,6 @@
 var $ = require('jquery');
 var dateManager = require('./dateManager');
-var localStorageManager = require('./localStorageManager');
+var localStorageManager = require('./localStorageManagerAsync');
 var commentsManager = require('./commentsManager');
 var avatarPlaceholder = require('./avatarPlaceholder');
 

@@ -62,13 +62,17 @@ module.exports = {
     },
 
     renderComments: function(comments) {
-        var contentToAdd = '';
+        $(".comments-list .ui-ideal").empty();
+        var nodeToAdd = '';
         for (var i = 0; i < comments.length; i++) {
-            contentToAdd += '<article class="article-comment">';
-            contentToAdd += '<div class="author"><strong>' + comments[i].author + "</strong> - <i>" + comments[i].email + '</i></div>';
-            contentToAdd += '<div class="message">' + comments[i].message + '</div>';
-            contentToAdd += "</article>"
+            nodeToAdd = '<article class="article-comment">';
+            nodeToAdd += '<div class="author"><strong class="author-name' + i + '"></strong> - <i class="author-email' + i + '"></i></div>';
+            nodeToAdd += '<div class="message author-message' + i + '"></div>';
+            nodeToAdd += "</article>"
+            $(".comments-list .ui-ideal").append(nodeToAdd);
+            $(".comments-list .ui-ideal .author-name" + i).text(comments[i].author);
+            $(".comments-list .ui-ideal .author-email" + i).text(comments[i].email);
+            $(".comments-list .ui-ideal .author-message" + i).text(comments[i].message);
         }
-        $(".comments-list .ui-ideal").html(contentToAdd);
     }
 }
